@@ -5,7 +5,7 @@
 
 A desktop-based **Banking Simulator** application built with **Python** and **Tkinter**, featuring a full GUI, SQLite database integration, OTP-based email verification, CAPTCHA authentication, and role-based access for Admin and Customers.
 
-![Login Screen]<img width="1920" height="870" alt="Capture" src="https://github.com/user-attachments/assets/1917fb2b-dd94-4b20-8ad8-f46e5cff54c9" />
+[Login Screen]<img width="1920" height="870" alt="Capture" src="https://github.com/user-attachments/assets/1917fb2b-dd94-4b20-8ad8-f46e5cff54c9" />
 
 ---
 
@@ -83,7 +83,8 @@ Banking_Simulator_Project/
 
 The first screen launched on startup. The live clock updates every second. The user selects a role, enters credentials, solves the CAPTCHA, and clicks Login.
 
-![Login Screen](screenshot_login.PNG)
+![Login Screen] <img width="1920" height="894" alt="Capture3" src="https://github.com/user-attachments/assets/49aa0d6b-5c0d-4f58-a645-3afc8aeb55b0" />
+
 
 **Fields:**
 - **User Type** — Dropdown to select `Admin` or `Customer`
@@ -103,7 +104,8 @@ The first screen launched on startup. The live clock updates every second. The u
 
 Accessible via the **Forgot Password** button. Allows users to recover their password through OTP verification on their registered email.
 
-![Forgot Password Screen](screenshot_forgot.PNG)
+![Forgot Password Screen] <img width="1919" height="870" alt="Capture2" src="https://github.com/user-attachments/assets/6db17685-aef4-49a5-9cf6-42e9a0eeef31" />
+
 
 **Flow:**
 1. Enter A/C No. and registered Email ID
@@ -118,12 +120,14 @@ Accessible via the **Forgot Password** button. Allows users to recover their pas
 
 Reached after successful admin login. Provides three account management operations via buttons at the top.
 
-![Admin Panel](screenshot_admin.PNG)
+![Admin Panel]<img width="1920" height="894" alt="Capture3" src="https://github.com/user-attachments/assets/6484ee3f-b5be-4df0-8833-bd4cd4708174" />
+
 
 #### ➕ New Account
 Opens a form to fill customer details — Name, Email ID, Mobile No., Aadhar No.
 
-![New Account Form](screenshot_newaccount.PNG)
+![New Account Form] <img width="1920" height="894" alt="Capture3" src="https://github.com/user-attachments/assets/3a159f12-fd12-4325-8a25-ee91f27086d5" />
+
 
 On clicking **Open Account**:
 - A random password is generated via `Random_Generator.password()`
@@ -147,7 +151,8 @@ On clicking **Open Account**:
 
 Reached after successful customer login. Five banking operations are available via the left-side buttons.
 
-![Customer Panel](screenshot_customer.PNG)
+![Customer Panel] <img width="1919" height="891" alt="Capture4" src="https://github.com/user-attachments/assets/facfd181-9696-4b92-a5d9-aa21520de601" />
+
 
 ---
 
@@ -156,7 +161,8 @@ Reached after successful customer login. Five banking operations are available v
 #### Show Details
 Displays full account information — Account No., Opening Date, Aadhar No., Mobile No., and current Balance.
 
-![Show Details](screenshot_showdetails.PNG)
+![Show Details] <img width="1920" height="889" alt="Capture5" src="https://github.com/user-attachments/assets/51bb5987-75d2-4cd8-86c1-0fb4d65255b6" />
+
 
 #### Update Details
 Opens an inner frame to edit Name, Mobile No., and Email ID. Executes an `UPDATE accounts SET ...` query on submission.
