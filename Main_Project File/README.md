@@ -1,10 +1,11 @@
+
 # 🏦 Banking Automation Simulator
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python) ![Tkinter](https://img.shields.io/badge/GUI-Tkinter-green) ![SQLite](https://img.shields.io/badge/Database-SQLite3-lightgrey?logo=sqlite) ![Status](https://img.shields.io/badge/Status-Demo%20Project-orange)
 
 A desktop-based **Banking Simulator** application built with **Python** and **Tkinter**, featuring a full GUI, SQLite database integration, OTP-based email verification, CAPTCHA authentication, and role-based access for Admin and Customers.
 
-![Login Screen](Main_Project File/Screenshot/Capture.PNG)
+![Login Screen](<img width="1920" height="870" alt="Capture" src="https://github.com/user-attachments/assets/0501c272-4b91-4c45-9e05-83918159d661" />)
 
 ---
 
