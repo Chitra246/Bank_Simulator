@@ -5,7 +5,7 @@
 
 A desktop-based **Banking Simulator** application built with **Python** and **Tkinter**, featuring a full GUI, SQLite database integration, OTP-based email verification, CAPTCHA authentication, and role-based access for Admin and Customers.
 
-![Login Screen](<img width="1920" height="870" alt="Capture" src="https://github.com/user-attachments/assets/0501c272-4b91-4c45-9e05-83918159d661" />)
+![Login Screen]<img width="1920" height="870" alt="Capture" src="https://github.com/user-attachments/assets/1917fb2b-dd94-4b20-8ad8-f46e5cff54c9" />
 
 ---
 
